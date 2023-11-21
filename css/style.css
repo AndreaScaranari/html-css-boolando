@@ -66,6 +66,7 @@ main {
 
 .col {
     width: calc(100% / 3);
+    min-width: 320px;
     padding: 10px;
 }
 
