@@ -17,6 +17,7 @@
 
 a {
     text-decoration: none;
+    color: white;
 }
 
 a:hover {
@@ -131,4 +132,36 @@ h6 {
 
 .oldprice {
     text-decoration: line-through;
+}
+
+footer {
+    height: 80px;
+    background-color: black;
+    color: white;
+}
+
+.footer-container {
+    height: 80px;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.srl {
+    font-size: 1.3rem;
+    margin-bottom: 6px;
+}
+
+.finfo a {
+    padding: 10px 10px 10px 0;
+}
+
+.followus {
+    text-align: center;
+    margin-bottom: 6px;
+}
+
+.fsocial a {
+    font-size: 1.2rem;
+    padding: 5px;
 }
