@@ -109,6 +109,7 @@ main {
 
 .col-fav:hover {
     color: red;
+    cursor: pointer;
 }
 
 .col-text {
@@ -134,6 +135,7 @@ h6 {
     text-decoration: line-through;
 }
 
+/* Footer */
 footer {
     height: 80px;
     background-color: black;
@@ -164,4 +166,35 @@ footer {
 .fsocial a {
     font-size: 1.2rem;
     padding: 5px;
+}
+
+/* Effetti Hover */
+
+.main-img:hover {
+    cursor: pointer;
+    box-shadow: 0px 1px 3px black;
+}
+
+.rftu-img:hover  {
+    content: url(../asset/img/1b.webp);
+}
+
+.rosest-img:hover  {
+    content: url(../asset/img/2b.webp);
+}
+
+.vdcp-img:hover  {
+    content: url(../asset/img/3b.webp);
+}
+
+.tu-img:hover  {
+    content: url(../asset/img/4b.webp);
+}
+
+.sb-img:hover  {
+    content: url(../asset/img/5b.webp);
+}
+
+.mb-img:hover  {
+    content: url(../asset/img/6b.webp);
 }
