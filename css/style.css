@@ -1,0 +1,62 @@
+/* Generics */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fcc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* a {
+    text-decoration: none;
+    color: white;
+    line-height: 2rem;
+    display: block;
+    padding: 0 10px;
+} */
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header */
+header {
+    background-color: #FF6900;
+    height: 80px;
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+
+.header-container {
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    line-height: 2rem;
+    display: block;
+    padding: 5px;
+}
+
+header img {
+    height: 80px;
+    padding: 15px;
+}
+
+header i {
+    text-decoration: none;
+    color: white;
+    line-height: 2rem;
+    display: block;
+    padding: 5px;
+}
+
+
