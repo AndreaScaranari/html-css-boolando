@@ -11,16 +11,20 @@
     align-items: center;
 }
 
-/* a {
+.border {
+    border: 1px dashed black;
+}
+
+a {
     text-decoration: none;
-    color: white;
-    line-height: 2rem;
-    display: block;
-    padding: 0 10px;
-} */
+}
 
 a:hover {
     text-decoration: underline;
+}
+
+.absolute {
+    position: absolute;
 }
 
 /* Header */
@@ -30,6 +34,7 @@ header {
     position: fixed;
     left: 0;
     right: 0;
+    z-index: 1;
 }
 
 .header-container {
@@ -38,12 +43,9 @@ header {
     justify-content: space-between;
 }
 
-header a {
-    text-decoration: none;
+header a, header i {
     color: white;
-    line-height: 2rem;
-    display: block;
-    padding: 5px;
+    padding: 15px 5px;
 }
 
 header img {
@@ -51,12 +53,79 @@ header img {
     padding: 15px;
 }
 
-header i {
-    text-decoration: none;
-    color: white;
-    line-height: 2rem;
-    display: block;
-    padding: 5px;
+/* Main */
+main {
+    padding-top: 120px;
 }
 
+.container-col {
+    width: 80%;
+    margin: 0 auto;
+}
 
+.col {
+    width: calc(100% / 3);
+    padding: 10px;
+}
+
+.col-img {
+    position: relative;
+}
+
+.col img {
+    max-width: 100%;
+}
+
+.discount, .eco {
+    display: inline-block;
+    color: white;
+}
+
+.discount {
+    background-color: red;
+    padding: 6px 12px;
+}
+
+.eco {
+    background-color: green;
+    padding: 6px 12px;
+}
+
+.lowtags {
+    bottom: 40px;
+    left: 0;
+}
+
+.col-fav {
+    top: 20px;
+    right: 0;
+    background-color: white;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+.col-fav:hover {
+    color: red;
+}
+
+.col-text {
+    line-height: 1;
+}
+
+h6 {
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+.prices {
+    font-size: 1rem;
+}
+
+.newprice {
+    color: red;
+    font-weight: 600;
+}
+
+.oldprice {
+    text-decoration: line-through;
+}
