@@ -9,9 +9,9 @@
     display: flex;
 }
 
-.border {
+/* .border {
     border: 1px dashed black;
-}
+} */
 
 a, header i {
     text-decoration: none;
@@ -35,7 +35,6 @@ li {
 /* Header */
 header {
     background-color: #FF6900;
-    height: 80px;
     position: fixed;
     left: 0;
     right: 0;
@@ -97,7 +96,7 @@ main {
     margin-bottom: 8px;
 }
 
-.col img {
+img {
     max-width: 100%;
     display: block;
 }
@@ -195,12 +194,21 @@ footer {
 
 /* Effetti Hover */
 
+.secondary-img,
+.col-img:hover .main-img {
+    display: none;
+}
+
 .main-img:hover {
     cursor: pointer;
     box-shadow: 0px 1px 3px black;
 }
 
-.rftu-img:hover  {
+.col-img:hover .secondary-img {
+    display: block;
+}
+
+/* .rftu-img:hover  {
     content: url(../asset/img/1b.webp);
 }
 
@@ -222,4 +230,4 @@ footer {
 
 .mb-img:hover  {
     content: url(../asset/img/6b.webp);
-}
+} */
